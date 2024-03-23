@@ -23,8 +23,12 @@ public class TestController {
         return ResponseEntity.ok("Public api!");
     }
     @GetMapping(value = "/public/new")
-    public ResponseEntity<String> testMyPublic(){
-        return ResponseEntity.ok("My Public api!");
+    public ResponseEntity<String> testNewPublic(){
+        return ResponseEntity.ok("New Public api!");
     }
 
+    @GetMapping(value = "/public/my")
+    public ResponseEntity<String> testMyPublic(){
+        return ResponseEntity.ok("Hariom Public api!");
+    }
 }
