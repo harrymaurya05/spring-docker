@@ -10,3 +10,4 @@ services:
     volumes:
       - ./src:/usr/app/src
       - ./target:/usr/app/target
+#https://www.youtube.com/watch?v=5ST1f2y3HQM  how to hot reload
