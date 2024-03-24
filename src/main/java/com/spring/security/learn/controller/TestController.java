@@ -27,8 +27,12 @@ public class TestController {
         return ResponseEntity.ok("New Public api!");
     }
 
-    @GetMapping(value = "/public/my")
+    @GetMapping(value = "/public/hariom")
     public ResponseEntity<String> testMyPublic(){
+        int a = 5;
+        int b = 5;
+        int c = 6;
+        System.out.println(a+b);
         return ResponseEntity.ok("Hariom Public api!");
     }
 }
