@@ -35,9 +35,6 @@ public class TestController {
         System.out.println(a+b);
         return ResponseEntity.ok("Hariom Public api!");
     }
-    @GetMapping(value = "/public/admin")
-    public ResponseEntity<String> testPublicAdmin(){
-        return ResponseEntity.ok("New Public admin api!");
-    }
+
 
 }
